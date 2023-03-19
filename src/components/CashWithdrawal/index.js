@@ -10,7 +10,7 @@ class CashWithdrawal extends Component {
   onDenom = value => {
     const {balance} = this.state
     const total = balance - value
-    if (total > 0) {
+    if (total >= 0) {
       this.setState(prevState => ({
         balance: prevState.balance - value,
       }))
