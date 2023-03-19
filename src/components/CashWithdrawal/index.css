@@ -1,0 +1,214 @@
+.bg-Container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  max-height: 1200px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.card {
+  min-width: 270px;
+  background-color: #150b3e;
+  border-radius: 10px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+.profile-card {
+  min-width: 250px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.profile-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  font-family: 'Roboto';
+  color: #7c3aed;
+  background-color: #c7d2fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-name {
+  font-family: 'Roboto';
+  color: #d4d2db;
+  font-weight: bold;
+}
+
+.balance-card {
+  min-width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.balance-heading {
+  font-family: 'Roboto';
+  color: #585076;
+  font-weight: 600;
+}
+
+.balance-status {
+  font-family: 'Roboto';
+  font-weight: 800;
+  color: #d4d2db;
+}
+
+.balance-unit {
+  font-family: 'Roboto';
+  font-weight: 800;
+  color: #382f5a;
+}
+
+.options-card {
+  min-width: 250px;
+}
+
+.withdraw-heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #d4d2db;
+}
+
+.options {
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #585076;
+}
+
+.denomination-card {
+  min-width: 250px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+@media (max-width: 767px) {
+  .card {
+    width: 60%;
+  }
+
+  .profile-card {
+    width: 70%;
+  }
+
+  .profile-image {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    font-size: 18px;
+  }
+
+  .profile-name {
+    font-size: 25px;
+  }
+
+  .balance-card {
+    width: 60%;
+  }
+
+  .balance-heading {
+    font-size: 20px;
+  }
+
+  .balance-status {
+    font-size: 25px;
+  }
+
+  .balance-unit {
+    font-size: 12px;
+  }
+
+  .options-card {
+    width: 60%;
+  }
+  .withdraw-heading {
+    font-size: 25px;
+  }
+
+  .options {
+    font-size: 20px;
+  }
+
+  .denomination-card {
+    width: 60%;
+  }
+
+  .button {
+    max-height: 35px;
+    max-width: 100px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 60%;
+  }
+
+  .profile-card {
+    width: 80%;
+  }
+
+  .profile-image {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    font-size: 30px;
+  }
+
+  .profile-name {
+    font-size: 40px;
+  }
+
+  .balance-card {
+    width: 60%;
+  }
+
+  .balance-heading {
+    font-size: 25px;
+  }
+
+  .balance-status {
+    font-size: 30px;
+  }
+
+  .balance-unit {
+    font-size: 18px;
+  }
+
+  .options-card {
+    width: 60%;
+  }
+  .withdraw-heading {
+    font-size: 30px;
+  }
+
+  .options {
+    font-size: 25px;
+  }
+
+  .denomination-card {
+    width: 60%;
+  }
+
+  .button {
+    min-width: 185px;
+    max-width: 190px;
+    font-size: 25px;
+  }
+}
