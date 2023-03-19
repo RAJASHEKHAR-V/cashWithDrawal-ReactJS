@@ -10,7 +10,7 @@
 }
 
 .card {
-  min-width: 270px;
+  min-width: 260px;
   background-color: #150b3e;
   border-radius: 10px;
   background-size: cover;
@@ -18,6 +18,7 @@
   flex-direction: column;
   align-items: center;
   padding: 5px;
+  width: 60%;
 }
 
 .profile-card {
@@ -28,9 +29,6 @@
 }
 
 .profile-image {
-  height: 50px;
-  width: 50px;
-  border-radius: 25px;
   font-family: 'Roboto';
   color: #7c3aed;
   background-color: #c7d2fe;
@@ -50,28 +48,34 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 60%;
 }
 
 .balance-heading {
   font-family: 'Roboto';
   color: #585076;
   font-weight: 600;
+  font-size: 25px;
 }
 
 .balance-status {
   font-family: 'Roboto';
   font-weight: 800;
   color: #d4d2db;
+  font-size: 25px;
+  margin: auto;
 }
 
 .balance-unit {
   font-family: 'Roboto';
   font-weight: 800;
   color: #382f5a;
+  margin: auto;
 }
 
 .options-card {
   min-width: 250px;
+  width: 60%;
 }
 
 .withdraw-heading {
@@ -95,13 +99,10 @@
   list-style-type: none;
   padding: 0px;
   margin: 0px;
+  width: 60%;
 }
 
 @media (max-width: 767px) {
-  .card {
-    width: 60%;
-  }
-
   .profile-card {
     width: 70%;
   }
@@ -117,35 +118,16 @@
     font-size: 25px;
   }
 
-  .balance-card {
-    width: 60%;
-  }
-
-  .balance-heading {
-    font-size: 20px;
-  }
-
-  .balance-status {
-    font-size: 25px;
-  }
-
   .balance-unit {
     font-size: 12px;
   }
 
-  .options-card {
-    width: 60%;
-  }
   .withdraw-heading {
     font-size: 25px;
   }
 
   .options {
     font-size: 20px;
-  }
-
-  .denomination-card {
-    width: 60%;
   }
 
   .button {
@@ -156,10 +138,6 @@
 }
 
 @media (min-width: 768px) {
-  .card {
-    width: 60%;
-  }
-
   .profile-card {
     width: 80%;
   }
@@ -174,36 +152,23 @@
   .profile-name {
     font-size: 40px;
   }
-
-  .balance-card {
-    width: 60%;
-  }
-
   .balance-heading {
-    font-size: 25px;
-  }
-
-  .balance-status {
     font-size: 30px;
   }
 
+  .balance-status {
+    font-size: 35px;
+  }
   .balance-unit {
     font-size: 18px;
   }
 
-  .options-card {
-    width: 60%;
-  }
   .withdraw-heading {
     font-size: 30px;
   }
 
   .options {
     font-size: 25px;
-  }
-
-  .denomination-card {
-    width: 60%;
   }
 
   .button {
